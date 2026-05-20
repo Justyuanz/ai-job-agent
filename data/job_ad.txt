@@ -1,0 +1,32 @@
+About the job
+What's the role? 
+
+Team: HERE Positioning
+
+At HERE, we go beyond standard GPS. We use advanced technologies, like signals from several satellite navigation systems, sensors, and radio, to provide super-accurate location services indoors and outdoors, down to sub-meter accuracy in 3D.
+
+Learn more: [HERE Positioning]( https://www.here.com/platform/positioning )
+
+You will participate in the development of positioning algorithms. The developed algorithms will be used in sensor-based dead reckoning and visual positioning. In sensor-based dead reckoning, sensor inputs are used to compute the location of a device. In visual positioning, the visual input from cameras is used to determine the locations of objects and the position of the camera platform. The goal is to develop both approaches further and attempt to combine them to produce a more accurate position solution. Your work assignments will include both algorithm development and testing.
+
+ As part of our skilled and supportive team, you will learn about topics such as: 
+ Positioning algorithms. 
+ Algorithm development and testing. 
+ Data and test result analysis. 
+
+ Who are you? 
+
+ You are pursuing a Bachelor’s or Master’s degree in Data Science, Computer Science, IT, or a related field, or you have already graduated and want to start working in the positioning domain. 
+ You can work locally in HERE's Tampere office. 
+ You have experience in algorithm development and analysis. 
+ You are skilled in mathematics and AI. 
+ You have experience in MATLAB or Octave. 
+ You are eager to learn, open-minded, and able to work in English. 
+
+Nice-to-Have Skills
+
+ You have used version control systems like Git. 
+ You are familiar with tools like JIRA and Confluence. 
+ You have experience in some programming languages, such as C, C++, Java, or Python. 
+ Experience with positioning technologies (e.g., GNSS, radio, inertial, or vision-based navigation). 
+

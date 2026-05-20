@@ -1,0 +1,295 @@
+python
+javascript
+typescript
+java
+c
+c++
+c#
+golang
+rust
+php
+ruby
+kotlin
+swift
+scala
+r
+matlab
+bash
+shell scripting
+powershell
+lua
+fastapi
+flask
+django
+spring boot
+spring
+node.js
+express
+nestjs
+laravel
+ruby on rails
+asp.net
+.net
+gin
+fiber
+actix
+rocket
+html
+css
+sass
+scss
+react
+next.js
+vue
+nuxt
+angular
+svelte
+tailwind
+bootstrap
+vite
+webpack
+redux
+zustand
+graphql client
+sql
+postgresql
+mysql
+mariadb
+sqlite
+mongodb
+redis
+elasticsearch
+opensearch
+cassandra
+dynamodb
+firebase
+supabase
+neo4j
+database design
+relational databases
+nosql
+indexing
+query optimization
+database migrations
+transactions
+acid
+normalization
+orm
+sqlalchemy
+prisma
+typeorm
+sequelize
+django orm
+hibernate
+api
+rest api
+restful api
+graphql
+grpc
+websocket
+json
+xml
+openapi
+swagger
+postman
+api design
+api integration
+webhooks
+authentication
+authorization
+oauth
+oauth2
+openid connect
+jwt
+session management
+password hashing
+bcrypt
+csrf
+xss
+sql injection
+security
+tls
+ssl
+cors
+rate limiting
+docker
+docker compose
+kubernetes
+helm
+nginx
+apache
+linux
+ubuntu
+debian
+ssh
+systemd
+ci/cd
+github actions
+gitlab ci
+jenkins
+terraform
+ansible
+cloudflare
+vercel
+netlify
+render
+railway
+fly.io
+heroku
+aws
+azure
+google cloud
+gcp
+ec2
+s3
+lambda
+rds
+cloud run
+cloud functions
+cloud storage
+iam
+serverless
+testing
+unit testing
+integration testing
+end-to-end testing
+e2e testing
+pytest
+unittest
+jest
+vitest
+mocha
+cypress
+playwright
+selenium
+test-driven development
+tdd
+mocking
+test coverage
+git
+github
+gitlab
+version control
+code review
+debugging
+clean code
+refactoring
+design patterns
+object-oriented programming
+oop
+functional programming
+solid principles
+data structures
+algorithms
+complexity analysis
+big o
+memory management
+concurrency
+parallelism
+multithreading
+asynchronous programming
+event-driven architecture
+microservices
+monolith
+distributed systems
+message queue
+rabbitmq
+kafka
+celery
+background jobs
+task queue
+caching
+load balancing
+reverse proxy
+service discovery
+domain-driven design
+ddd
+clean architecture
+mvc
+repository pattern
+http
+tcp/ip
+udp
+dns
+routing
+subnetting
+sockets
+web server
+file descriptors
+processes
+unix
+posix
+logging
+monitoring
+metrics
+tracing
+prometheus
+grafana
+sentry
+opentelemetry
+log aggregation
+machine learning
+deep learning
+natural language processing
+nlp
+data analysis
+data visualization
+pandas
+numpy
+scikit-learn
+pytorch
+tensorflow
+transformers
+hugging face
+sentence transformers
+embeddings
+vector database
+semantic search
+rag
+llm
+openai api
+prompt engineering
+langchain
+llamaindex
+pip
+venv
+poetry
+pydantic
+requests
+httpx
+beautifulsoup
+scrapy
+pyyaml
+click
+typer
+alembic
+web scraping
+browser automation
+beautiful soup
+cron
+scheduler
+automation
+agile
+scrum
+kanban
+jira
+notion
+technical documentation
+requirements analysis
+user stories
+product thinking
+makefile
+valgrind
+gdb
+lldb
+make
+cmake
+pthreads
+mutex
+semaphore
+parsing
+lexer
+parser
+ray tracing
+graphics
+minilibx

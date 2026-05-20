@@ -1,0 +1,36 @@
+
+1. What is fitz?
+- fitz is the Python module name used by PyMuPDF.
+- PyMuPDF is a library for working with PDF files.
+- We use it because a PDF is not normal plain text; normal open().read() is not enough.
+
+2. Why use fitz here?
+- fitz.open(filename) opens the PDF and returns a document object.
+
+3. What is doc?
+- doc is the whole PDF document object.
+- It contains pages and PDF-related methods.
+- Example: len(doc) gives the number of pages.
+- doc.close() closes the PDF.
+
+4. What is page?
+- page is one page object inside the PDF document.
+- doc is an object, and each page inside doc is also an object.
+- A page object has methods like page.get_text().
+
+7. What is enumerate()?
+- enumerate() gives both index and value.
+Example:
+    for index, value in enumerate(["a", "b", "c"]):
+        print(index, value)
+Output:
+    0 a
+    1 b
+    2 c
+
+Mental model
+- fitz.open(filename) -> document object
+- document object -> contains page objects
+- for page in doc -> loop through pages
+- page.get_text() -> get text from one page
+- text += page_text -> collect all page text

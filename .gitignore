@@ -1,2 +1,39 @@
-data/*
-*/__pycache__
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Personal docs in data folder
+data/*.pdf
