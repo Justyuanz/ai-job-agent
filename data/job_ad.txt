@@ -1,31 +1,35 @@
-Junior Software Engineering Trainee
-Helsinki, Finland (Hybrid)
+Who are we?
 
-We are looking for a junior software engineering trainee to join our platform
-development team. In this role, you will help build and test backend and
-systems-level tools used by engineering teams.
+We are part of Elisa’s Digital Services unit, working in agile teams to build scalable and reliable digital solutions. We are a group of skilled software professionals working closely together, and what we build has a direct impact on our customers and business. We value quality, collaboration, and continuous improvement – and the work we do truly matters.
 
-Responsibilities
-- Develop small features and internal tools using Python and C/C++.
-- Work in a Linux/Unix development environment.
-- Debug software issues using logs, GDB, Valgrind, and careful problem solving.
-- Write manual tests and simple regression tests to improve software quality.
-- Use Git and GitHub for version control and code review.
-- Document your work clearly and communicate progress with the team.
-- Explore AI tools such as ChatGPT or GitHub Copilot to support learning,
-  debugging, and documentation.
-- Help with API integration and JSON parsing for internal automation workflows.
+Role description 💻
 
-Required skills
-- Basic Python programming.
-- Basic C/C++ programming.
-- Linux or Unix command-line experience.
-- Git and GitHub.
-- Testing, debugging, and troubleshooting.
-- Communication, teamwork, and willingness to learn.
+In this role you will join a multi-talented team developing backend services with a strong focus on Python. You will work on real-time and streaming applications, taking early-stage services and turning them into robust, production-ready systems.
 
-Nice to have
-- Docker.
-- REST API experience.
-- Web scraping or automation experience.
-- Machine learning or AI interest.
+Your work connects application logic with data engineering, ensuring that real-time data is reliably structured and flows smoothly into downstream pipelines.
+
+Your responsibilities include developing new features, improving and maintaining existing services, writing automated tests, and collaborating closely with data and platform teams. There may also be opportunities to contribute to frontend development when needed.
+
+We work with agile methodologies and value high-quality, well-tested code. You will enjoy this role if you like solving complex problems, working closely with others, and continuously improving systems and ways of working.
+
+What do we expect from you? 🚀
+
+Solid experience in backend development
+Strong Python programming skills
+Experience with real-time, streaming, or high-concurrency applications
+Experience with public cloud platforms (AWS, GCP, Azure)
+Understanding of data engineering concepts (e.g. data pipelines, event streams)
+General knowledge of cloud and infrastructure
+Experience in writing automated tests
+Team player mindset and experience working in agile environments
+Our working language is English
+
+Please note - the chosen candidate will undergo a security clearance vetting, which in turn requires having stayed in Finland for multiple years.
+
+What can you expect from us? 💙
+
+Opportunities to develop your skills and learn new technologies
+Supportive teammates and leadership
+Possibility to take ownership of meaningful systems
+Flexible, trust-based and motivating work culture
+Work that has real impact on customers and society
