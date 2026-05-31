@@ -1,8 +1,13 @@
+from datetime import datetime
+
 from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 client = OpenAI()
+
+def current_timestamp() -> str:
+	return datetime.now().isoformat(timespec="seconds")
 
 def write_feedback_to_file(filename: str, text: str) -> None:
     if not text:
@@ -10,7 +15,7 @@ def write_feedback_to_file(filename: str, text: str) -> None:
         return
 
     with open(filename, "a", encoding="utf-8") as file:
-        file.write("\n\n--- NEW FEEDBACK REPORT ---\n\n")
+        file.write(f"\n\n--- NEW FEEDBACK REPORT ({current_timestamp()}) ---\n\n")
         file.write(text)
         file.write("\n")
 

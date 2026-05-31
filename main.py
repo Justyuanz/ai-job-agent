@@ -1,4 +1,5 @@
 #from filename import function name
+import os
 
 from utils.pdf_reader import extract_texts_from_pdf
 from utils.skill_reader import read_skill_from_txt
@@ -9,9 +10,12 @@ from core.skills_extractor import extract_skill
 from core.matcher import match_skills
 
 from model.joblead_extractor import choose_the_best_job
+from model.reviewer import generate_feedback
 #from core.esco_api import search_esco_skills
 #from model.embeddings import compute_similarity
-#from model.openai_reviewer import generate_feedback
+
+
+CURRENT_LEADS_FILENAME = "data/current_leads.json"
 
 
 def load_inputs():
@@ -56,11 +60,39 @@ def print_results(my_skills, job_skills, matched, maybe_matched, missing):
 	print("Count:", len(missing))
 
 
+def load_current_leads():
+	if not os.path.exists(CURRENT_LEADS_FILENAME):
+		return None
+
+	with open(CURRENT_LEADS_FILENAME, "r", encoding="utf-8") as file:
+		import json
+		return json.load(file)
+
+def print_waiting_for_job_ad_message():
+	print("Selected job leads already exist in data/current_leads.json.")
+	print("Open the primary lead or backup lead.")
+	print("Paste the correct full job ad into data/job_ad.txt.")
+	print('Then set "job_ad_ready": true in data/current_leads.json and run main.py again.')
+
 def main():
-	emails = get_linkedin_job_alert_emails()
 	cv_texts, skill_db, job_texts = load_inputs()
-	choose_the_best_job(cv_texts, emails)
+	current_leads = load_current_leads()
+
+	if current_leads is None:
+		emails = get_linkedin_job_alert_emails()
+		choose_the_best_job(cv_texts, emails)
+		print("Saved selected job leads to data/current_leads.json")
+		print("Open the primary lead. If suitable, paste the full job ad into data/job_ad.txt.")
+		print('Then set "job_ad_ready": true in data/current_leads.json and run main.py again.')
+		return
+
+	if not current_leads.get("job_ad_ready"):
+		print_waiting_for_job_ad_message()
+		return
+
 	my_skills, job_skills, matched, maybe_matched, missing = analyze_job(cv_texts, skill_db, job_texts)
+	print_results(my_skills, job_skills, matched, maybe_matched, missing)
+	generate_feedback(cv_texts, job_texts, my_skills, job_skills, matched, maybe_matched, missing)
 
 if __name__ == "__main__":
 	main()
