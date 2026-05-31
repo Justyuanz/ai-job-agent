@@ -2,6 +2,11 @@ from model.embeddings import compute_similarity
 
 #enumerate
 def match_skills(cv_skills, job_skills):
+	if not job_skills:
+		return [], [], []
+
+	if not cv_skills:
+		return [], [], job_skills
 	'''Core AI matching logic'''
 	similarity_matrix = compute_similarity(cv_skills, job_skills)
 	matched = []

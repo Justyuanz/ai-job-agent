@@ -1,6 +1,6 @@
 def normalize_text(text: str) -> str:
 	
-	for char in ",.;:!?()[]{}\"'\n\t":
+	for char in ",.;:!?()[]{}\"'\n\t/-":
 		text = text.replace(char, " ")
 
 	text = " " + " ".join(text.split()) + " "

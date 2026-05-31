@@ -258,6 +258,81 @@ pydantic
 requests
 httpx
 beautifulsoup
+software engineering
+software development
+application development
+systems programming
+system programming
+embedded systems
+low-level programming
+c programming
+c++ programming
+cuda
+gpu
+gpus
+valgrind
+gdb
+make
+makefile
+cmake
+pthreads
+threading
+process control
+signals
+pipes
+fork
+exec
+memory safety
+memory leaks
+manual testing
+regression testing
+software testing
+quality assurance
+qa
+validation
+debugging tools
+troubleshooting
+problem solving
+analytical thinking
+critical thinking
+ownership
+collaboration
+teamwork
+documentation
+presentation
+knowledge sharing
+r&d
+ai tools
+ai-assisted development
+chatgpt
+github copilot
+copilot
+code assistant
+automation
+workflow automation
+job automation
+gmail api
+linkedin
+web scraping
+scraping
+oauth flow
+json parsing
+api client
+command line
+cli
+cron
+scheduling
+state management
+csv
+markdown
+pdf parsing
+text extraction
+resume
+cv
+cover letter
+job matching
+skill matching
+semantic matching
 scrapy
 pyyaml
 click
@@ -274,7 +349,6 @@ scrum
 kanban
 jira
 notion
-technical documentation
 requirements analysis
 user stories
 product thinking
@@ -293,3 +367,8 @@ parser
 ray tracing
 graphics
 minilibx
+ai tools
+communication
+research and development
+artificial intelligence
+

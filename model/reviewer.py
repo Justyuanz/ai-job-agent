@@ -1,5 +1,7 @@
 from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
 client = OpenAI()
 
 def write_feedback_to_file(filename: str, text: str) -> None:
@@ -27,7 +29,7 @@ def generate_feedback(cv_texts: list[str],
 					  maybe_matched: list[str],
 					  missing: list[str]) ->None:
 	
-	template = load_prompt_template("data/prompt.txt")
+	template = load_prompt_template("data/review_prompt.txt")
 	prompt = template.format(
         cv_texts=cv_texts[:3000],
         job_texts=job_texts[:3000],
@@ -41,7 +43,7 @@ def generate_feedback(cv_texts: list[str],
 	response = client.responses.create(
 		model="gpt-5.5",
 		input=prompt,
-		max_output_tokens=500,
+		max_output_tokens=1000,
 	)
 
 	write_feedback_to_file("data/feedback_report.md", response.output_text)
