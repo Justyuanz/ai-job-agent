@@ -37,28 +37,6 @@ The current MVP works like this:
 
 ---
 
-## Models Used
-
-This project currently uses:
-
-- `gpt-4.1` to select promising job leads from Gmail emails.
-- `sentence-transformers/all-MiniLM-L6-v2` to compare the job description with my CV.
-- `gpt-5.5` to generate CV feedback and application advice.
-
----
-
-## Tech Stack
-
-- Python
-- Gmail API
-- OpenAI API
-- SentenceTransformers
-- Hugging Face models
-- dotenv
-- Markdown/text file output
-
----
-
 ## Example Output
 
 Example feedback:
@@ -78,13 +56,34 @@ Missing or weaker areas:
 - Cloud deployment
 - Professional backend experience
 
-1. Verdict
-2. Best application angle
-3. Biggest gaps
-4. CV changes
-5. Cover letter angle
+1. Best application angle
+2. Biggest gaps
+3. CV changes
+4. Cover letter angle
 
 ```
+
+---
+
+## Models Used
+
+This project currently uses:
+
+- `gpt-4.1` to select promising job leads from Gmail emails.
+- `sentence-transformers/all-MiniLM-L6-v2` to compare the job description with my CV.
+- `gpt-5.5` to generate CV feedback and application advice.
+
+---
+
+## Tech Stack
+
+- Python
+- Gmail API
+- OpenAI API
+- SentenceTransformers
+- Hugging Face models
+- dotenv
+- Markdown/text file output
 
 ---
 
